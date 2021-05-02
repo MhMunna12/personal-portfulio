@@ -1,0 +1,16 @@
+.blog-detail img{
+    height: 230px;
+    width: 350px;
+}
+.blog-detail{
+   border-radius: 10px;
+}
+.blogg{
+    background-color: rgb(71, 66, 105);
+    width: 350px;
+    height: 200px;
+}
+.blogg p, h5{
+    padding: 10px;
+    color: white;
+}

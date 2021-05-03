@@ -1,12 +1,12 @@
 import React from 'react';
 import munna from '../../images/munna.jpg';
 import Footer from '../Home/Footer/Footer';
+import Zoom from 'react-reveal/Zoom';
 import './About.css';
 const About = () => {
     return (
         <div  className='container'>
-            <div>
-                <div className='col-md-6' style = {{margin:'0 auto'}}>
+            <div className='col-md-6' style = {{margin:'0 auto'}}>
                     <div className='text-center about-container'>
                         <img src={munna} alt=""/>
                         <h1 style={{color:'rgb(158, 226, 211)'}}> <span style={{color:'rgb(224, 114, 166)'}}>Monwar</span> Hossain</h1>
@@ -18,9 +18,9 @@ const About = () => {
                         </p>
                     </div>
                 </div>
-            </div>
             <div className='p-5 mt-5'>
                 <div className='row'>
+                <Zoom>
                     <div className='col-md-6'style={{borderRight:'3px solid yellow'}}>
                         <h1 className='text-center text-white'>My Skills</h1>
                         <hr className='hr-styled'/>
@@ -69,6 +69,7 @@ const About = () => {
                         <h6 className='text-white'>Cumilla polytechnic Institute</h6>
                         <p className='text-white'>Session 2013 to 2017</p>
                     </div>
+                    </Zoom>
                 </div>
             </div>
             <Footer/>

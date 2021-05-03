@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from '../Footer/Footer';
 import Map from '../Map/Map';
 import emailjs from 'emailjs-com';
+import Rotate from 'react-reveal/Rotate';
 
 const Contact = () => {
     function sendEmail(e) {
@@ -19,6 +20,7 @@ const Contact = () => {
     return (
         <div className='container mt-5'>
             <div className='row'>
+            <Rotate top left>
                 <div className='col-md-6 mt-5'>
                     <div className='col-md-12' style = {{margin:'0 auto'}}>
                         <h1 style={{color:'tomato'}}> <span className='text-white'>Contact</span> Me</h1>
@@ -41,10 +43,13 @@ const Contact = () => {
                             </form>
                         </div>
                     </div>
+                </Rotate>
                 <div className='col-md-6 mt-5'>
-                    <div >
-                        <Map/>
-                    </div>
+                    <Rotate top right>
+                        <div >
+                            <Map/>
+                        </div>
+                    </Rotate>
                 </div>
             </div>
             <Footer/>

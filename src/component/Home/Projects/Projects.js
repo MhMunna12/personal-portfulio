@@ -3,6 +3,7 @@ import libary from '../../../images/laibary.PNG';
 import laptop from '../../../images/laptop.PNG';
 import car from '../../../images/car.PNG';
 import panda from '../../../images/panda.PNG';
+import Zoom from 'react-reveal/Zoom';
 
 import './Project.css';
 
@@ -16,9 +17,10 @@ const Projects = () => {
             <div className='mt-5'>
                 <h2 className='project-h2 text-white'>Some of <span style={{color:'rgb(111, 210, 223)'}}>my project</span> </h2>
             </div>
+            <Zoom>
             <div className='row mb-4'>
                 <div className='col-md-6 project-image'>
-                    <img src={laptop} alt=""/>
+                    <img className='img-fluid rounded' src={laptop} alt=""/>
                 </div>
                 <div className='col-md-6 d-flex align-self-center '>
                     <div className='content-left p-4 text-white'>
@@ -47,7 +49,7 @@ const Projects = () => {
             </div>
             <div className='row mb-4'>
                 <div className='col-md-6 project-image'>
-                    <img src={libary} alt=""/>
+                    <img className='img-fluid rounded' src={libary} alt=""/>
                 </div>
                 <div className='col-md-6  d-flex align-self-center '>
                     <div className='content-left p-4 text-white'>
@@ -73,7 +75,7 @@ const Projects = () => {
             </div>
             <div className='row mb-4'>
                 <div className='col-md-6 project-image'>
-                    <img src={car} alt=""/>
+                    <img className='img-fluid rounded' src={car} alt=""/>
                 </div>
                 <div className='col-md-6 mb-2 d-flex align-self-center '>
                     <div className='content-left p-4 text-white'>
@@ -99,7 +101,7 @@ const Projects = () => {
 
             <div className='row'>
                 <div className='col-md-6 project-image'>
-                    <img src={panda} alt=""/>
+                    <img className='img-fluid rounded' src={panda} alt=""/>
                 </div>
                 <div className='col-md-6 mb-2 d-flex align-self-center '>
                     <div className='content-left p-4 text-white'>
@@ -123,6 +125,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+            </Zoom>
         </div>
     );
 };

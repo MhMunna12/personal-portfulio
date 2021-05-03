@@ -1,5 +1,4 @@
 import React from 'react';
-import Blogs from '../Blogs/Blogs';
 import Contact from '../Contact/Contact';
 import Header from '../Header/Header';
 import Projects from '../Projects/Projects';
@@ -12,9 +11,7 @@ const Home = () => {
         <div>
             <Header></Header>
             <Projects/>
-            <Blogs/>
             <Contact/>
-            
         </div>
     );
 };

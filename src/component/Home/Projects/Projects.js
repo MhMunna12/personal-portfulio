@@ -23,7 +23,7 @@ const Projects = () => {
                     <img className='img-fluid rounded' src={laptop} alt=""/>
                 </div>
                 <div className='col-md-6 d-flex align-self-center '>
-                    <div className='content-left p-4 text-white'>
+                    <div  className='content-left p-4 text-white'>
                         <h2>Laptop Repair</h2>
                         <p>
                             This is a Laptop repair-based website with dashboard. Where people can click buy 
@@ -105,11 +105,9 @@ const Projects = () => {
                 </div>
                 <div className='col-md-6 mb-2 d-flex align-self-center '>
                     <div className='content-left p-4 text-white'>
-                        <h2>City Service</h2>
+                        <h2>Panda Commerce</h2>
                         <p>
-                            This is a ride car-service website. There some ride option such as bike, car, bus and 
-                            train this ride service users have to click ride option and give some destination 
-                            information and then that ride option will be booked for user. 
+                        A simple , static and one page Ecommerce website design . It is a XD to HTML conversion .
                         </p>
                         <div className='technologies mb-2'>
                             <li>HTML5</li>
